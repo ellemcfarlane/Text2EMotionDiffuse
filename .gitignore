@@ -1,0 +1,6 @@
+**.gif
+**.pyc
+**.npz
+.vscode/
+demo*
+.ipynb
