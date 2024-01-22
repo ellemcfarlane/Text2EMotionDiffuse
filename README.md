@@ -12,7 +12,7 @@ tags: [diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x]
 ---
 <div align="center">
 
-<h1>Extension of MotionDiffuse for SMPLX features</h1>
+<h1>Extension of MotionDiffuse for SMPLX features.</h1>
 <h3>02456 Deep Learning, DTU Compute, Fall 2023</h3>
 <div>
     <a>Elle McFarlane</a>&emsp;
@@ -28,8 +28,8 @@ tags: [diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x]
 </div>
 
 <div style="display: flex; justify-content: center;">
-    <img src="text2motion/other/denoising.png" alt="De-noising process" style="width: 50%; margin: 0 auto;">
-    <img src="text2motion/other/happy_guy.png" alt="Happy guy" style="width: 40%; margin: 0 auto;">
+    <img src="text2motion/media/learning_progress.png" alt="Learning progress" style="width: 50%; margin: 0 auto;">
+    <img src="text2motion/media/happy_guy.png" alt="Happy guy" style="width: 40%; margin: 0 auto;">
 </div>
     
 </div>
@@ -41,7 +41,8 @@ Conditioning human motion on natural language (text-to-motion) is critical for m
 Go to [text2motion/DTU_readme.md](text2motion/dtu_README.md) for installation instructions
 
 ## Demo
-to experience the demo of the model, check the notebook [text2motion/demo.ipynb](text2motion/demo.ipynb). The notebook will guide you through the process of generating a motion from a text prompt. the same code is also available as a python script [text2motion/demo.py](text2motion/demo.py).\
+To demo the model, see the Hugging Face [space](https://huggingface.co/spaces/ellemac/Text2EMotionDiffuse?logs=container) or
+checkout the notebook [text2motion/demo.ipynb](text2motion/demo.ipynb). The notebook will guide you through the process of generating a motion from a text prompt. The same code is also available as a python script [text2motion/demo.py](text2motion/demo.py).\
 **Note:** To visualize the output, the `make gen` command must be run from the `text2motion` directory.
 
 ## Acknowledgements
