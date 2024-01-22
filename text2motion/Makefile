@@ -12,6 +12,11 @@ GT_FILE=s2/cubesmall_lift # ground-truth
 FRAMES=60
 MEAN_EMOTION=surprise
 
+# to push changes to space, run 'git push space main'
+# make sure to do 'git remote add space https://huggingface.co/spaces/ellemac/Text2EMotionDiffuse'
+huggingface:
+	cd ${ROOT_DIR} && ${PYTHON_BIN} -m app
+
 mean-mesh:
 	cd $(ROOT_DIR) && vglrun ${PYTHON_BIN} -m datasets.mean_mesh \
 	--emotion ${MEAN_EMOTION} \
@@ -42,9 +47,8 @@ train: w_stats
 	--seed ${SEED} \
 	--use_wandb \
 
-# get makes model generate seq according to text and writes result to npy file
+# get-npy makes model generate seq according to text and writes result to npy file
 gen-npy:
-# checkpoints/t2m/t2m_motiondiffuse/opt.txt
 	cd ${ROOT_DIR} && ${PYTHON_BIN} -m tools.inference \
 	--opt_path ${MODEL_DIR}/opt.txt \
 	--which_epoch ${EPOCH} \

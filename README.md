@@ -1,13 +1,14 @@
 ---
 title: Text2EMotionDiffuse
-emoji: 🏢
+emoji: 🧠
 colorFrom: blue
 colorTo: red
 sdk: gradio
 sdk_version: 3.44.1
-app_file: app.py
+app_file: text2motion/app.py
 pinned: false
 license: mit
+tags: diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x
 ---
 <div align="center">
 
