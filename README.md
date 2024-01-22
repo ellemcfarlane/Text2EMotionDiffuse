@@ -8,20 +8,19 @@ sdk_version: 3.44.1
 app_file: text2motion/app.py
 pinned: false
 license: mit
-tags: diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x
+tags: [diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x]
 ---
 <div align="center">
 
 <h1>Extension of MotionDiffuse for SMPLX features</h1>
 <h3>02456 Deep Learning, DTU Compute, Fall 2023</h3>
 <div>
-    <a>Elle Mcfarlane</a>&emsp;
+    <a>Elle McFarlane</a>&emsp;
     <a>Alejandro Cirugeda</a>&emsp;
     <a>Jonathan Mikler</a>&emsp;
     <a>Menachem Franko</a>&emsp;
 </div>
 <div>
-    equal contribution&emsp;
 <h4 align="center">
   <a href="https://arxiv.org/abs/2208.15001" target='_blank'>[MotionDiffuse Paper]</a> •
   <a href="https://github.com/mingyuan-zhang/MotionDiffuse" target='_blank'>[MotionDiffuse Code]</a>
