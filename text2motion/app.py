@@ -3,12 +3,11 @@ import sys
 import gradio as gr
 import logging
 
-os.makedirs("outputs", exist_ok=True)
 sys.path.insert(0, ".")
 
 def generate(prompt, length):
     logging.warning("NOT generating per the prompt [TODO], just returning a denoising gif.")
-    result_path = "media/denoising_grab_model.gif"
+    result_path = "./media/denoising_grab_model.gif"
     return result_path
 
 
