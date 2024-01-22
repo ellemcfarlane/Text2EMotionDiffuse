@@ -22,8 +22,9 @@ tags: [diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x]
 </div>
 <div>
 <h4 align="center">
-  <a href="https://arxiv.org/abs/2208.15001" target='_blank'>[MotionDiffuse Paper]</a> •
-  <a href="https://github.com/mingyuan-zhang/MotionDiffuse" target='_blank'>[MotionDiffuse Code]</a>
+  <a href="https://huggingface.co/spaces/ellemac/Text2EMotionDiffuse" target='_blank'>[Our HuggingFace Demo]</a> •
+  <a href="https://arxiv.org/abs/2208.15001" target='_blank'>[Original MotionDiffuse Paper]</a> •
+  <a href="https://github.com/mingyuan-zhang/MotionDiffuse" target='_blank'>[Original MotionDiffuse Code]</a>
 </h4>
 </div>
 
@@ -41,7 +42,7 @@ Conditioning human motion on natural language (text-to-motion) is critical for m
 Go to [text2motion/DTU_readme.md](text2motion/dtu_README.md) for installation instructions
 
 ## Demo
-To demo the model, see the Hugging Face [space](https://huggingface.co/spaces/ellemac/Text2EMotionDiffuse?logs=container) or
+To demo the model, see the Hugging Face [space](https://huggingface.co/spaces/ellemac/Text2EMotionDiffuse) or
 checkout the notebook [text2motion/demo.ipynb](text2motion/demo.ipynb). The notebook will guide you through the process of generating a motion from a text prompt. The same code is also available as a python script [text2motion/demo.py](text2motion/demo.py).\
 **Note:** To visualize the output, the `make gen` command must be run from the `text2motion` directory.
 
