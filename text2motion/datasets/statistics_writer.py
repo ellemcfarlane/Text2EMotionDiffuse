@@ -1,7 +1,7 @@
 from os.path import join as pjoin
 
 import numpy as np
-from motionx_explorer import (calc_mean_stddev_pose,
+from .motionx_explorer import (calc_mean_stddev_pose,
                               drop_shapes_from_motion_arr, get_seq_names)
 
 if __name__ == "__main__":
