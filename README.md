@@ -29,8 +29,8 @@ tags: [diffusion, motiondiffuse, text2motion, smplx, smpl, smpl-x, smplify-x]
 </div>
 
 <div style="display: flex; justify-content: center;">
-    <img src="text2motion/media/learning_progress.png" alt="Learning progress" style="width: 50%; margin: 0 auto;">
-    <img src="text2motion/media/happy_guy.png" alt="Happy guy" style="width: 40%; margin: 0 auto;">
+    <img src="text2motion/assets/learning_progress.png" alt="Learning progress" style="width: 50%; margin: 0 auto;">
+    <img src="text2motion/assets/happy_guy.png" alt="Happy guy" style="width: 40%; margin: 0 auto;">
 </div>
     
 </div>
